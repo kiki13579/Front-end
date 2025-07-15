@@ -1,0 +1,23 @@
+# --- Optimisation des performances : Contrôle du Cache Navigateur ---
+# Cette section indique au navigateur du visiteur de conserver une copie des fichiers
+# (comme le CSS, le JS, les images) pour ne pas avoir à les retélécharger à chaque visite.
+# Résultat : le site se charge beaucoup plus vite pour les visiteurs récurrents.
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # Garde les images, CSS et JS en cache pendant 1 mois
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+
+# --- Sécurité : Désactiver le listage des dossiers ---
+# Si un visiteur tente d'accéder à un dossier qui ne contient pas de fichier index.html
+# (par exemple, votre dossier /assets/images/), cette règle empêche le serveur
+# d'afficher la liste de tous les fichiers présents, ce qui est une bonne pratique de sécurité.
+
+Options -Indexes
