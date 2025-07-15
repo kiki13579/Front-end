@@ -1,0 +1,50 @@
+Objectif des Sprints (Sprint Goal) :
+    "Construire une application web entièrement fonctionnelle, responsive et déployée,
+        qui récupère et affiche les 12 messages de l'horoscope via une API,
+        tout en gérant les états de chargement et d'erreur."
+
+Sprint Backlog : Tâches à réaliser
+    Voici la décomposition des User Stories en tâches techniques concrètes. C'est votre plan d'action pour le développement.
+
+    Tirée de US-01 : Déclencher la récupération des horoscopes (EFP, EUI, EAPI)
+        T-01.1 : Créer la structure HTML de base (index.html) avec un bouton ayant l'ID fetch-button.
+        T-01.2 : En JavaScript (main.js), ajouter un écouteur d'événement (addEventListener) sur le clic 
+            du bouton fetch-button.
+        T-01.3 : Dans cet événement, implémenter la fonction fetch() pour envoyer une requête POST à 
+            l'URL https://oracles-api.sidathsoeun.fr/oracle_api.php.
+        T-01.4 : Configurer la requête fetch() avec l'en-tête Content-Type: application/json et le corps 
+            (body) contenant la clé API secrète.
+
+    Tirée de US-02 : Afficher les messages de l'horoscope (EUI)
+        T-02.1 : Dans le HTML, créer un conteneur principal (ex: une <section> avec l'ID horoscope-container)
+             où les cartes seront affichées.
+        T-02.2 : En JS, après une réponse réussie de l'API, créer une fonction qui parcourt les 12 résultats.
+        T-02.3 : Pour chaque résultat, utiliser document.createElement pour générer dynamiquement une "carte" 
+            (ex: une <div>) contenant le signe et le message.
+        T-02.4 : Ajouter chaque carte générée au horoscope-container en utilisant appendChild.
+
+    Tirée de US-03 & US-04 : Gérer les états de chargement et d'erreur (EUI)
+        T-03.1 : Créer un élément HTML pour le loader (ex: une <div> avec l'ID loader) et le masquer par défaut 
+            en CSS.
+        T-03.2 : En JS, afficher le loader juste avant de lancer l'appel fetch() et le masquer lorsque les données
+             sont reçues ou qu'une erreur survient.
+        T-04.1 : Créer un élément HTML pour les messages d'erreur (ex: une <div> avec l'ID error-message) et 
+            le masquer par défaut.
+        T-04.2 : En JS, utiliser un bloc try...catch ou la promesse .catch() sur l'appel fetch() pour intercepter
+             les erreurs.
+        T-04.3 : En cas d'erreur, afficher le conteneur d'erreur avec un message clair pour l'utilisateur.
+
+    Tirée de US-05 : Assurer une expérience responsive (EUI)
+        T-05.1 : Utiliser CSS Flexbox ou Grid sur le horoscope-container pour organiser les cartes de manière flexible.
+        T-05.2 : Dans style.css, définir des media queries pour ajuster la disposition des cartes sur tablette
+             (ex: 2 colonnes) et mobile (ex: 1 colonne).
+
+    Tirée de US-06 : Animer l'interface (EFS, EUI)
+        T-06.1 : En CSS, ajouter une transition (transition) sur les cartes.
+        T-06.2 : Créer une règle CSS avec le pseudo-sélecteur :hover pour modifier subtilement l'apparence de la carte 
+            au survol (ex: transform: scale(1.05); ou box-shadow).
+
+    Tirée des Tâches Utilitaires (EFU)
+        T-U.1 : Créer le dépôt GitHub et pousser le code initial.
+        T-U.2 : Rédiger le fichier README.md au fur et à mesure de l'avancement.
+        T-U.3 : Configurer et déployer le site sur GitHub Pages.
