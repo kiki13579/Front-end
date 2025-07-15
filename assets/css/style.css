@@ -65,6 +65,38 @@ h1 {
     color: var(--primary-color);
 }
 
+/* Style pour cacher des éléments */
+.hidden {
+    display: none;
+}
+
+/* Style pour le loader (une simple animation de rotation) */
+#loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid var(--text-color);
+    border-top: 5px solid var(--primary-color);
+    border-radius: 50%;
+    margin: 2rem auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Style pour le message d'erreur */
+#error-message {
+    background-color: #5c1c27;
+    color: white;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 8px;
+    max-width: 500px;
+    border: 1px solid var(--primary-color);
+}
+
 /* --- Media Queries pour le Responsive Design --- */
 
 /* Pour les tablettes (écrans de 1024px de large ou moins) */
