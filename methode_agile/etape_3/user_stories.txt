@@ -1,0 +1,57 @@
+Product Backlog (Version Catégorisée)
+    Légende des catégories :
+        EUI : Interface Utilisateur
+        EUA : Interface Administrateur
+        EFP : Fonctions Principales
+        EFS : Fonctions Secondaires
+        EFU : Fonctions Utilitaires
+        EDB : Base de Données
+        EAPI : API
+
+Priorité : Très Haute (Essentiel pour le MVP)
+    US-01 : Déclencher la récupération des horoscopes
+        Description : En tant qu'utilisatrice, je veux cliquer sur un bouton "Tirer les 12 messages" afin de lancer la recherche des messages du jour.
+        Catégories : EFP, EUI, EAPI
+
+    US-02 : Afficher les messages de l'horoscope
+        Description : En tant qu'utilisatrice, je veux voir les 12 messages affichés dans des cartes visuelles distinctes afin de pouvoir lire facilement
+            les prédictions pour chaque signe.
+        Catégories : EUI
+
+    US-03 : Gérer l'état de chargement
+        Description : En tant qu'utilisatrice, je veux voir un indicateur de chargement (loader) après avoir cliqué sur le bouton afin de savoir que
+             l'application est en train de travailler.
+        Catégories : EUI
+
+    US-04 : Gérer les erreurs de communication
+        Description : En tant qu'utilisatrice, je veux recevoir un message d'erreur clair si les horoscopes ne peuvent pas être chargés afin de 
+            comprendre qu'il y a un problème technique.
+        Catégories : EUI
+
+Priorité : Haute (Essentiel pour la qualité de l'expérience)
+    US-05 : Assurer une expérience responsive
+        Description : En tant qu'utilisatrice, je veux que l'application s'affiche correctement sur mon mobile, ma tablette et mon ordinateur afin
+             de pouvoir consulter mon horoscope sur n'importe quel appareil.
+        Catégories : EUI
+
+Priorité : Moyenne (Amélioration de l'expérience)
+    US-06 : Animer l'interface
+        Description : En tant qu'utilisatrice, je veux voir une animation légère au survol des cartes afin que l'expérience soit plus engageante.
+        Catégories : EFS, EUI
+
+Tâches Techniques (Fonctions utilitaires pour le projet)
+    T-01 : Mettre en place la structure du projet
+        Description : Créer l'arborescence des fichiers (index.html, assets/css/style.css, etc.) comme demandé. 
+        Catégorie : EFU
+
+    T-02 : Initialiser le dépôt Git
+        Description : Initialiser le dépôt Git pour le versioning du projet et créer le fichier .gitignore. 
+        Catégorie : EFU
+
+    T-03 : Rédiger la documentation
+        Description : Créer et maintenir le fichier README.md avec toutes les sections requises (objectif, technologies, liens...). 
+        Catégorie : EFU
+
+    T-04 : Déployer le projet en ligne
+        Description : Configurer le déploiement continu ou manuel sur GitHub Pages ou Planethoster. 
+        Catégorie : EFU

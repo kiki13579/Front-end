@@ -1,0 +1,24 @@
+Interview simulée (Product Owner & Persona)
+    Product Owner (PO) : Bonjour Chloé. Racontez-moi, comment cherchez-vous votre horoscope actuellement ?
+    Chloé :
+        Bonjour. En général, je fais une recherche rapide sur Google depuis mon téléphone.
+        Mais c'est souvent frustrant. Je tombe sur des sites pleins de publicités, lents à charger, et je dois cliquer partout pour trouver l'information.
+    
+    PO : Qu'est-ce qui serait idéal pour vous ?
+    Chloé :
+        J'adorerais une application très simple. J'ouvre la page, j'appuie sur un seul bouton, et hop, j'ai les messages du jour.
+        Ce serait génial si tout s'affichait clairement, peut-être sous forme de jolies cartes visuelles, une pour chaque signe.
+
+    PO : C'est une excellente idée. Et si le chargement prend quelques secondes, comment aimeriez-vous que l'application réagisse ?
+    Chloé :
+        Oh, ce n'est pas un souci si ça prend un instant. Mais j'aimerais savoir que quelque chose se passe, qu'elle n'est pas "gelée".
+        Un petit symbole qui tourne ou une animation de chargement serait parfait pour me faire patienter.
+        Et si ça ne marche pas, il faudrait un message simple qui dit "Désolé, une erreur est survenue", pour que je sache qu'il y a un problème. 
+
+    PO : Très clair. Vous consultez sur plusieurs appareils, n'est-ce pas ?
+    Chloé :
+        Oui ! Principalement mon mobile le matin.
+        Mais parfois sur ma tablette ou l'ordinateur du bureau.
+        Il faudrait que ça s'affiche bien partout, sans que je doive zoomer.
+        Un design qui s'adapte, ce serait le top.
+        Une petite animation discrète quand je passe ma souris sur une carte sur l'ordinateur, ce serait un petit plus agréable. 

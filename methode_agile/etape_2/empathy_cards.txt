@@ -1,0 +1,41 @@
+Carte d'empathie de Chloé
+    ________________________________________________________________________________________________________________________________
+    /                                 /                                                                                            /
+    /               Type              /                                             Description                                    /
+    /_________________________________/____________________________________________________________________________________________/
+    /                                 /                                                                                            /
+    /                                 /             * "Je veux juste une information simple et rapide."                            /
+    /    CE QU'ELLE PENSE (THINKS)    /             * "J'espère que ce n'est pas encore une application compliquée."               /
+    /                                 /             * "Un peu de positivité pour commencer la journée, ce serait bien."            /
+    /                                 /             * "Les sites actuels sont une perte de temps."                                 /
+    /_________________________________/____________________________________________________________________________________________/
+    /                                 /                                                                                            /
+    /                                 /             * Frustrée par les expériences web actuelles (lenteur, pubs).                  /
+    /                                 /             * Curieuse et pleine d'espoir pour une nouvelle solution.                      /
+    /    CE QU'ELLE RESSENT (FEELS)   /             * Pressée le matin, recherche l'efficacité.                                    /
+    /                                 /             * Recherche de la clarté et du calme.                                          /
+    /_________________________________/____________________________________________________________________________________________/
+    /                                 /                                                                                            /
+    /                                 /             * "J'aimerais une application très simple."                                    /
+    /      CE QU'ELLE DIT (SAYS)      /             * "J'appuie sur un seul bouton, et hop, j'ai les messages."                    /
+    /                                 /             * "J'aimerais savoir que quelque chose se passe" (pendant le chargement).      /
+    /                                 /             * "Il faut que ça s'affiche bien partout."                                     /
+    /_________________________________/____________________________________________________________________________________________/
+    /                                 /                                                                                            /
+    /                                 /             * Consulte son smartphone chaque matin.                                        /
+    /     CE QU'ELLE FAIT (DOES)      /             * Fait des recherches rapides sur internet.                                    /
+    /                                 /             * Utilise différents appareils (mobile, tablette, ordinateur).                 /
+    /                                 /             * Abandonne rapidement les sites qui sont trop lents ou complexes.             /
+    /_________________________________/____________________________________________________________________________________________/
+    /                                 /                                                                                            /
+    /                                 /             * Perte de temps : Sites lents et complexes.                                   /
+    /         FREINS (PAINS)          /             * Frustration : Publicités invasives et mauvaise ergonomie.                    /
+    /                                 /             * Incertitude : Ne pas savoir si l'application charge ou si elle est plantée.  /
+    /                                 /             * Incompatibilité : Sites qui s'affichent mal sur mobile.                      /
+    /_________________________________/____________________________________________________________________________________________/
+    /                                 /                                                                                            /
+    /                                 /             * Simplicité : Une action unique pour obtenir le résultat.                     /
+    /   BESOINS / OBJECTIFS (GAINS)   /             * Clarté : Accès direct et lisible à l'information (cartes).                   /
+    /                                 /             * Réassurance : Être informée de l'état de l'application (chargement, erreur). /
+    /                                 /             * Flexibilité : Une expérience de qualité sur n'importe quel appareil.         /
+    /_________________________________/____________________________________________________________________________________________/

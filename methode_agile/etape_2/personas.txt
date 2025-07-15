@@ -1,0 +1,10 @@
+Persona : L'Utilisateur Cible
+    Nom : Chloé Martin
+    Âge : 32 ans
+    Profession : Assistante de direction dans une PME
+    Personnalité : Curieuse, organisée, cherche à intégrer des moments de bien-être et de réflexion dans un quotidien chargé.
+        Elle est à l'aise avec la technologie (smartphone, tablette, ordinateur portable) mais préfère les applications simples et intuitives.
+    Scénario d'utilisation :
+        Chaque matin, avant de commencer sa journée de travail, Chloé aime prendre 5 minutes avec son café pour lire une pensée positive ou son horoscope.
+        Elle cherche une source d'inspiration rapide pour bien démarrer sa journée.
+        Elle consulte son smartphone principalement, mais aussi sa tablette le week-end et son ordinateur au bureau pendant sa pause.

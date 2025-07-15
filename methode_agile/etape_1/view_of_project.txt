@@ -1,0 +1,58 @@
+A - Contexte du projet :
+    Vous intégrez une start-up spécialisée dans la diffusion de messages spirituels et horoscopiques.
+    Votre mission est de concevoir et de développer une application web frontend complète pour présenter un horoscope quotidien.
+    Le projet, intitulé "Horoscope Oracle du Jour", part de zéro, sans aucun fichier de base fourni.
+____________________________________________________________________________________________________________________________________
+B - Objectifs du projet :
+    Objectif Principal : Créer une application web frontend complète et fonctionnelle qui se connecte à une API externe 
+        pour afficher les 12 messages de l'horoscope du jour.
+
+    Objectifs Secondaires :
+        Offrir une expérience utilisateur qui soit à la fois fluide, moderne et responsive.
+        Mettre en place une interface claire, élégante et visuellement attractive.
+        Assurer que le code soit bien structuré, commenté et suive les bonnes pratiques professionnelles.
+        Déployer l'application en ligne pour la rendre accessible
+____________________________________________________________________________________________________________________________________
+C - Parties prenantes
+    ________________________________________________________________________________________________________________________________
+    /                    /                                                                                                         /
+    /        Rôle        /                                               Description                                               /
+    /____________________/_________________________________________________________________________________________________________/
+    /                    /                                                                                                         /
+    /       Client       /                         La start-up spécialisée dans les messages horoscopiques.                        /
+    /____________________/_________________________________________________________________________________________________________/
+    /                    /                                                                                                         /
+    /    Product Owner   /               Sidath SOEUN, auteur du contexte de l'examen et des documents de référence.               /
+    /  /Contact Client   /         Dans une petite équipe, ce rôle est souvent tenu par le chef de projet ou le fondateur.         /
+    /____________________/_________________________________________________________________________________________________________/
+    /                    /                                                                                                         /
+    /      Team dev      /           Vous, en tant que développeur chargé de réaliser l'intégralité du projet frontend.            /
+    /____________________/_________________________________________________________________________________________________________/
+    /                    /                                                                                                         /
+    /     Final user     /          Les visiteurs du site web intéressés par la consultation de leur horoscope quotidien.          /
+    /____________________/_________________________________________________________________________________________________________/
+____________________________________________________________________________________________________________________________________
+D - Périmètre et Contraintes du projet
+    Fonctionnalités principales :
+        Un bouton unique pour déclencher l'affichage des 12 messages.
+        Affichage dynamique des horoscopes sous forme de cartes visuelles générées en JavaScript.
+        Présence d'un indicateur de chargement (loader) pendant l'appel à l'API.
+        Gestion et affichage d'un message d'erreur clair en cas d'échec de la requête.
+        Animations CSS légères au survol des cartes.
+
+    Contraintes techniques :
+        Technologies imposées : HTML5 sémantique, CSS3 (Flexbox, Grid, Media Queries) et JavaScript natif (vanilla JS).
+        Appel API : Utilisation obligatoire de fetch() pour effectuer une requête POST avec un Content-Type: application/json et une clé d'API secrète.
+        Responsive Design : L'application doit être parfaitement fonctionnelle sur mobile, tablette et ordinateur.
+        Structure de projet : Une arborescence de fichiers claire et professionnelle est requise (/assets/css, /assets/js, etc.).
+____________________________________________________________________________________________________________________________________
+E - Livrables attendus
+    Code source complet : L'intégralité du projet (HTML, CSS, JS) dans un fichier ZIP, respectant l'arborescence demandée.
+    Dépôt Git : Un lien vers le dépôt GitHub public contenant des commits réguliers et explicites.
+    Application en ligne : Un lien vers le site web déployé et fonctionnel (via GitHub Pages ou Planethoster).
+    Documentation : Un fichier README.md complet et professionnel.
+    Gestion de projet Agile : Les éléments de l'organisation Scrum (maquette, Kanban, Product Backlog, Sprint).
+____________________________________________________________________________________________________________________________________
+F - Planification du projet
+    Durée totale de l'épreuve : Le projet doit être réalisé et livré entre le 15/07/2025 à 9h00 et le 18/07/2025 à 12h00.
+    Cette période représente la durée totale allouée pour l'ensemble des sprints de développement et la livraison finale.
