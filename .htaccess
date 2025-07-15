@@ -4,6 +4,10 @@
 # Résultat : le site se charge beaucoup plus vite pour les visiteurs récurrents.
 DirectoryIndex index.html
 
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+</IfModule>
+
 <IfModule mod_expires.c>
   ExpiresActive On
   # Garde les images, CSS et JS en cache pendant 1 mois
