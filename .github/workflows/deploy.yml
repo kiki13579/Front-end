@@ -1,0 +1,25 @@
+# Nom du workflow
+name: Deploy to Planethoster
+
+# Déclencheur sur la branche main
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Étape 1: Récupère le code de votre dépôt
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Étape 2: Utilise une action pour déployer les fichiers via FTP
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # On utilise les secrets configurés précédemment
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          remote-dir: /
