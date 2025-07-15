@@ -2,6 +2,7 @@
 :root {
     --background-color: #1a1a2e;
     --card-background: #16213e;
+    --card-background-s: #1e2947;
     --text-color: #e0e0e0;
     --primary-color: #e94560;
     --primary-hover: #f06a8A;
@@ -58,6 +59,13 @@ h1 {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+
+.horoscope-card:hover {
+    background-color: var(--card-background-s);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .horoscope-card h3 {
