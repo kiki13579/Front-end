@@ -1,0 +1,49 @@
+<!-- Déclare que le document est une page HTML5. -->
+<!DOCTYPE html>
+<!-- Indique que la page est en français. -->
+<html lang="fr">
+<head>
+    <!-- Assure que les accents et les caractères spéciaux s'affichent correctement. -->
+    <meta charset="UTF-8">
+
+    <!-- C'est la ligne essentielle pour que le site soit responsive et s'adapte bien aux mobiles. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- C'est le texte qui apparaît dans l'onglet de votre navigateur. -->
+    <title>Horoscope Oracle du Jour</title>
+
+    <!--  C'est le lien qui connecte votre page HTML à votre fichier de style CSS pour la rendre jolie. -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--  C'est le lien qui connecte votre page HTML à votre favicon. -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!--   L'en-tête de la page, contenant le titre principal. C'est une balise sémantique importante. -->
+    <header>
+        <h1>Horoscope Oracle du Jour</h1>
+    </header>
+
+    <!--  La balise qui entoure tout le contenu principal de votre application. -->
+    <main>
+        <section class="controls">
+            <!--  Le bouton sur lequel l'utilisateur cliquera. Son id est son "nom" pour que le JavaScript puisse le reconnaître. -->
+            <button id="fetch-button">Tirer les 12 messages</button>
+        </section>
+
+        <!--  Un conteneur vide qui servira à afficher une animation de chargement. -->
+        <!-- Il a un id pour être contrôlé par JavaScript et une classe hidden pour être caché au début. -->
+        <div id="loader" class="hidden"></div>
+
+        <!--  La même chose que le loader, mais pour afficher un message d'erreur. -->
+        <div id="error-message" class="hidden"></div>
+
+        <!--  Le conteneur le plus important. Il est vide au départ, et le JavaScript viendra le remplir avec les 12 cartes de l'horoscope. -->
+        <section id="horoscope-container"></section>
+    </main>
+
+    <!--  Le lien vers votre fichier JavaScript. On le met à la fin pour que la page se charge plus vite, et defer garantit qu'il s'exécute au bon moment. -->
+    <script src="assets/js/main.js" defer></script>
+
+</body>
+</html>
