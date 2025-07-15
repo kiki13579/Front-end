@@ -1,0 +1,89 @@
+/* Réinitialisation de base et définition des variables de couleur pour une maintenance facile */
+:root {
+    --background-color: #1a1a2e;
+    --card-background: #16213e;
+    --text-color: #e0e0e0;
+    --primary-color: #e94560;
+    --primary-hover: #f06a8A;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+header {
+    padding: 2rem 1rem;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+/* Style du bouton principal */
+#fetch-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#fetch-button:hover {
+    background-color: var(--primary-hover);
+}
+
+/* Le conteneur des cartes, mis en page avec CSS Grid */
+#horoscope-container {
+    display: grid;
+    /* Par défaut (desktop), on affiche 4 colonnes de taille égale */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Espace entre les cartes */
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto; /* Pour centrer le conteneur */
+}
+
+/* Style des cartes individuelles */
+.horoscope-card {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.horoscope-card h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+/* --- Media Queries pour le Responsive Design --- */
+
+/* Pour les tablettes (écrans de 1024px de large ou moins) */
+@media (max-width: 1024px) {
+    #horoscope-container {
+        /* On passe à 2 colonnes */
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Pour les mobiles (écrans de 600px de large ou moins) */
+@media (max-width: 600px) {
+    #horoscope-container {
+        /* On passe à 1 seule colonne */
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
