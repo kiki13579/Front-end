@@ -4,19 +4,21 @@ Une application web frontend simple et élégante qui affiche l'horoscope du jou
 
 ## Site en ligne
 
-[Lien vers votre site déployé sur GitHub Pages] ## Fonctionnalités
+[https://ecf1-bernard-kellyan.sidathsoeun.fr/](https://ecf1-bernard-kellyan.sidathsoeun.fr/)
 
-* [cite_start]**Appel API :** Un clic sur le bouton "Tirer les 12 messages" lance un appel `POST` à une API externe. [cite: 23]
-* [cite_start]**Affichage Dynamique :** Les 12 messages de l'horoscope sont générés dynamiquement en JavaScript et affichés sous forme de cartes. [cite: 24]
-* [cite_start]**Retours Visuels :** Un loader est visible pendant le chargement des données et un message d'erreur clair s'affiche en cas de problème. [cite: 25, 26]
-* [cite_start]**Design Responsive :** L'interface est entièrement responsive et s'adapte aux écrans mobiles, tablettes et ordinateurs. [cite: 26]
-* [cite_start]**Animations CSS :** Des transitions fluides au survol des cartes améliorent l'expérience utilisateur. [cite: 27]
+## Fonctionnalités
+
+* **Appel API :** Un clic sur le bouton "Tirer les 12 messages" lance un appel `POST` à une API externe.
+* **Affichage Dynamique :** Les 12 messages de l'horoscope sont générés dynamiquement en JavaScript et affichés sous forme de cartes.
+* **Retours Visuels :** Un loader est visible pendant le chargement des données et un message d'erreur clair s'affiche en cas de problème.
+* **Design Responsive :** L'interface est entièrement responsive et s'adapte aux écrans mobiles, tablettes et ordinateurs.
+* **Animations CSS :** Des transitions fluides au survol des cartes améliorent l'expérience utilisateur.
 
 ## Technologies utilisées
 
-* [cite_start]HTML5 (Sémantique) [cite: 51]
-* [cite_start]CSS3 (Grid, Flexbox, Media Queries) [cite: 52]
-* [cite_start]JavaScript Natif (Vanilla JS) avec `fetch()` pour les appels API. [cite: 52]
+* HTML5 (Sémantique)
+* CSS3 (Grid, Flexbox, Media Queries)
+* JavaScript Natif (Vanilla JS) avec `fetch()` pour les appels API.
 
 ## Organisation des fichiers
 
