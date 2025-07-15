@@ -2,6 +2,7 @@
 # Cette section indique au navigateur du visiteur de conserver une copie des fichiers
 # (comme le CSS, le JS, les images) pour ne pas avoir à les retélécharger à chaque visite.
 # Résultat : le site se charge beaucoup plus vite pour les visiteurs récurrents.
+DirectoryIndex index.html
 
 <IfModule mod_expires.c>
   ExpiresActive On
