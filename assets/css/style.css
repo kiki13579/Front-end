@@ -106,11 +106,11 @@ h1 {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
-;
+    padding: 1rem;
+    background-color: var(--card-background);
+    color: var(--text-color);
+    text-align: center;
 }
 
 /* --- Media Queries pour le Responsive Design --- */
